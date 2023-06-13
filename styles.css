@@ -1,0 +1,99 @@
+html {
+    margin-top: 6%;
+
+}
+
+body {
+    background-image: url(bark.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    /* background-color: rgba(255, 255, 255, 0.95); */
+    padding: 4rem 2rem;
+    background-position: center;
+    /* for parallax */
+    background-attachment: fixed;
+}
+
+
+.mainimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.logowords {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.logopic {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+/* .transparent {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+} */
+#withyou,
+#ourwork,
+#m3d {
+    scroll-margin-top: 100px;
+}
+
+.card,
+.card-footer {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* /////////gallery /////// */
+#photogrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    opacity: 1;
+
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pic {
+    width: 100%;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width:700px) {
+
+    #photogrid {
+        display: grid;
+        grid-template-columns: auto auto;
+        opacity: 1;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 20px ;
+    }
+
+}
+
+.myfooter {
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Treehouse Creations</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="backgroundlayer"></div>
+    <!-- ///////////   nav  //////////////// -->
+    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="index.html"><img src="logowords.png" alt="Treehouse Creations" class="logowords"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <!-- nav item 1 -->
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <!-- nav item 2 -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <!-- nav item 3 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="process.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Process
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="process.html#withyou">with you</a></li>
+                                <li><a class="dropdown-item" href="process.html#ourwork">our work</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="process.html#m3d">3-D model</a></li>
+                            </ul>
+                        </li>
+                        <!-- nav item 4 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="gallery.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Gallery
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="gallery.html#photogrid">photos</a></li>
+                                <li><a class="dropdown-item" href="gallery.html#videos">videos</a></li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                        <!-- nav item 5 -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="faq.html">FAQ</a>
+                        </li>
+                        <!-- nav item 6 -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--////////////////////       end of nav    ///////////////////////////////////-->
+    <div><img class="img-fluid" src="gallery/g20.jpeg" alt="Treehouse creation image"></div>
+    
+    <div class="row  row-cols-1 row-cols-sm-2">
+        <div class="col">
+          <div class="card " id="withyou">
+            <div class="card-body">
+              <h5 class="card-title">What size tree is required for building?</h5>
+              <p class="card-text">Most trees will be able to support a structure to some degree.  Of course larger trees will be up to the task even without ground stanchions.  Our designers will be able to come up with a solution, be it in one single tree or using several, and if ground supports are required they can be put in discreetly and in a way that will compliment the overall design.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> What maintenance is required?</h5>
+              <p class="card-text">
+               
+                The materials that are used are typically treated woods however that doesn’t mean they will last a lifetime.  Sun, wind, rain and snow will take its toll which is the reason why we recommend an optional maintenance plan.  Although tree growth is factored in to the design it will need to be monitored after a few years to ensure it does not impede on the tree house structure.  As well as peace of mind that your tree house is structurally safe, simple modifications, new protective treatments and renewals will bring longevity to your construction.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                
+              <div class="card-body">
+                <h5 class="card-title" id="ourwork">
+                    Does it affect the tree? </h5>
+              <p class="card-text"> The tree house of course will be affected by the wind in the same way that the trees are.  This will be amplified depending on height and whether any shelter is afforded.  A simple yet effective way of preventing damage is to allow the house ‘to move’ with the tree, thus preventing self destruction that would occur if the construction were fixed.  Even with tie-in points to the ground the tree house design will remain flexible.
+
+              </p></div>
+            </div>
+          </div>
+             <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"> Do we need planning consent?</h5>
+                <p class="card-text">Planning is pretty much guaranteed these days but there are exceptions.  Generally it will be required if it is to be used for commercial use, sleeping in, over a certain height, within a certain distance of adjoining boundary or within a conservation area such as a National Park.  Applications can take around 8 weeks so plan early!  If you would sooner leave it to the professionals then we can act as agents on your behalf.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"> How much will it cost?</h5>
+                <p class="card-text">
+                   
+                    Costs will vary depending on size / complexity of the project.  Typically for smaller constructions  pricing starts from £5,000.  For medium sized builds which would come with full insulation, double glazed windows and doors prices start from approx. £35,000.  
+
+
+                    
+                    </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"> How long does it take?</h5>
+                <p class="card-text">
+                   
+                    Time scales vary depending on size of the project and the client specifications such as additional requirements for suspension bridges and zip lines.  Much of the preparatory work can be done from our workshop to minimize time on site.  To reduce any possible disruptions the build can also be done in stages if it is preferred. 
+
+
+                    
+                    </p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+        <!-- footer -->
+        <div class="card text-center d-flex align-items-center fullwidth transparent">
+            <div class="card-body ">
+                <h5 class="card-title">Talk to the Team</h5>
+
+                <a href="#" class="btn btn-primary">Contact</a>
+            </div>
+            <img src="logodone1.png" class="card-img-bottom logopic" alt="wooden structure">
+            <br>
+
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-sm-2 ">
+                    
+                  <div class="col">info@treehousecreations.com</div>
+                  <div class="col">Website by oneclearshot 2023</div>
+                 
+                </div>
+              </div>
+
+          
+        </div>
+        <!--    end footer    -->
+</body>
+
+</html>

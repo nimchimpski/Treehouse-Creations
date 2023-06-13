@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Treehouse Creations</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="backgroundlayer"></div>
+   <!-- ///////////   nav  //////////////// -->
+   <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand " href="index.html"><img src="logowords.png" alt="Treehouse Creations" class="logowords"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <!-- nav item 1 -->
+                    <li class="nav-item">
+                        <a class="nav-link "  href="index.html">Home</a>
+                    </li>
+                    <!-- nav item 2 -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <!-- nav item 3 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="process.html" role="button" data-bs-toggle="dropdown" aria-current="page"
+                            aria-expanded="false">
+                            Process
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="process.html#withyou">with you</a></li>
+                            <li><a class="dropdown-item" href="process.html#ourwork">our work</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="process.html#m3d">3-D model</a></li>
+                        </ul>
+                    </li>
+                    <!-- nav item 4 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="gallery.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Gallery
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="gallery.html#photogrid">photos</a></li>
+                            <li><a class="dropdown-item" href="gallery.html#videos">videos</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <!-- nav item 5 -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <!-- nav item 6 -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--////////////////////       end of nav    ///////////////////////////////////-->
+    <div><img class="img-fluid" src="th1.png" alt="Treehouse creations image"></div>
+    
+    <div class="row">
+        <div class="col-sm-6">
+          <div class="card " id="withyou">
+            <div class="card-body">
+              <h5 class="card-title">1. Initial Consultation</h5>
+              <p class="card-text">We will talk to you to discuss your ideas and give you some guidance and information about the design and build process.  It would be helpful to have an appreciation at this stage of your budget so that we can offer you a realistic construction ambition.</p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">2. Site Visit and Survey</h5>
+              <p class="card-text">
+                Together we’ll examine your outdoor space and talk about your requirements and discuss various design concepts.  We have drone technology so you can get a sense of being in the trees.  Hopefully this will help with any decision making and allow selection of a suitable site.  We’ll take away some measurements and photographs and begin the design process</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card" id="ourwork">
+                <!-- <img src="..." class="card-img-top" alt="..."> -->
+                
+              <div class="card-body">
+                <h5 class="card-title" >3. Design and 3D Modelling</h5>
+                <p class="card-text">
+                  
+                    Our team will look at your requirements and set about designing your treehouse.  Once a quality hand drawing and virtual 3D model is completed we will send a detailed offer and provide a time frame for delivery / completion.  Of course at this stage the design can be changed as much as you like until you are completely satisfied.</p>
+                
+              </div>
+              <div id="m3d" class="sketchfab-embed-wrapper text-center"> <iframe title="3D Model"   allow="autoplay; fullscreen; xr-spatial-tracking"  src="https://sketchfab.com/models/792280f807d64abfa68a293e4ec9116e/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/3d-model-792280f807d64abfa68a293e4ec9116e?utm_medium=embed&utm_campaign=share-popup&utm_content=792280f807d64abfa68a293e4ec9116e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 3D Model </a> by <a href="https://sketchfab.com/John.Yuill?utm_medium=embed&utm_campaign=share-popup&utm_content=792280f807d64abfa68a293e4ec9116e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> TreeHouse Creations </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=792280f807d64abfa68a293e4ec9116e" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+            </div>
+          </div>
+             <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"> 4. Acceptance</h5>
+                <p class="card-text">
+                 
+                    Once you are happy with the design we can advise on planning applications and act as your agent on your behalf.  New regulations mean any platform or structure 300mm above ground requires consent so it is something that cannot be avoided, however with our expert knowledge it is something we can navigate in reasonable time.  Typical applications take up to 8 weeks to approve but some may take longer.  Once determination is given to proceed we can sign contracts and at this stage we will ask for a 40% deposit. </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"> 5. Pre-Fabrication and Build</h5>
+                <p class="card-text">
+                   
+                    To minimise disruption at your property we will carry out as much as possible at our workshop.  This means we can get work done even during inclement weather.  Once ready we will be able to start construction at site and complete in a shorter period of time.  A stage payment of 30% will be required once the team arrive onsite with the balance due on completion.
+                    
+                    </p>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+  <!-- footer -->
+  <div class="card text-center d-flex align-items-center fullwidth transparent">
+    <div class="card-body ">
+        <h5 class="card-title">Talk to the Team</h5>
+
+        <a href="#" class="btn btn-primary">Contact</a>
+    </div>
+    <img src="logodone1.png" class="card-img-bottom logopic" alt="wooden structure">
+    <br>
+
+    <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 ">
+            
+          <div class="col">info@treehousecreations.com</div>
+          <div class="col">Website by oneclearshot 2023</div>
+         
+        </div>
+      </div>
+
+  
+</div>
+<!--    end footer    -->
+</body>
+
+</html>
